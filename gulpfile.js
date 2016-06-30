@@ -38,7 +38,6 @@ gulp.task('js-fef', function(){
 });
 
 gulp.task('copyjs', function () {
-  console.log('copying foundation.js');
   return gulp
       .src('js/**/*.js')
       .pipe(gulp.dest(kirbyJSDir));
