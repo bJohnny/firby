@@ -31,8 +31,6 @@ gulp.task('sass', function() {
 gulp.task('js-fef', function(){
     return gulp.src(jsPaths)
         .pipe($.concat('vendor.js'))
-        .pipe(gulp.dest('kirby/tmp'))
-        .pipe($.rename('vendor.min.js'))
         .pipe($.uglify())
         .pipe(gulp.dest(kirbyJSDir));
 });
