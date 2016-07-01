@@ -1,1 +1,3 @@
-Title: Site Title
+Title: Your Site Title
+----
+Author: Company Inc.

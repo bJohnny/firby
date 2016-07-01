@@ -1,0 +1,20 @@
+/* Your style. Just delete these lines and start over. */
+
+.page-container {
+  @include breakpoint(large){
+    margin: rem-calc(30) rem-calc(300) 0;
+  }
+}
+.top-bar-left, .top-bar-right {
+  margin-bottom: 1rem;
+}
+
+.menu {
+  .menu-text {
+    padding-left: 0;
+  }
+}
+
+section.content {
+  margin: auto 0 3rem;
+}

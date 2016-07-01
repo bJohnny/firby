@@ -1,0 +1,7 @@
+Title: Home
+----
+Text:   Congratulations! You have successfully installed Kirby CMS with Foundation 6, Sass and Gulp.
+
+Kirby is a great CMS with no database. It's a piece of cake, so check out the (link: https://getkirby.com/docs text: Kirby documentation popup: yes).
+
+**Happy Coding :-)**
