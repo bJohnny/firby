@@ -2,6 +2,14 @@
 
 This is the basic starter project for Firby = [Foundation for Sites 6](http://foundation.zurb.com/sites) + [Kirby CMS](http://getkirby.com). It includes a Sass compiler and a starter HTML file for you.
 
+## Kirby CMS
+
+You can purchase your Kirby license at
+<http://getkirby.com/buy>
+
+A Kirby license is valid for a single domain. You can find
+Kirby's license agreement here: <http://getkirby.com/license>
+
 ## Installation
 
 To use this template, your computer needs:

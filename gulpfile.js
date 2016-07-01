@@ -13,7 +13,7 @@ var jsPaths = [
     'bower_components/foundation-sites/dist/foundation.js'
 ];
 
-var kirbyJSDir = 'kirby/assets/js';
+var kirbyAssets = 'assets/';
 
 gulp.task('sass', function() {
   return gulp.src('scss/app.scss')
@@ -25,20 +25,20 @@ gulp.task('sass', function() {
     .pipe($.autoprefixer({
       browsers: ['last 2 versions', 'ie >= 9']
     }))
-    .pipe(gulp.dest('kirby/assets/css'));
+    .pipe(gulp.dest(kirbyAssets + 'css'));
 });
 
 gulp.task('js-fef', function(){
     return gulp.src(jsPaths)
         .pipe($.concat('vendor.js'))
         .pipe($.uglify())
-        .pipe(gulp.dest(kirbyJSDir));
+        .pipe(gulp.dest(kirbyAssets + 'js'));
 });
 
 gulp.task('copyjs', function () {
   return gulp
       .src('js/**/*.js')
-      .pipe(gulp.dest(kirbyJSDir));
+      .pipe(gulp.dest(kirbyAssets + 'js'));
 });
 
 gulp.task('default', ['js-fef', 'copyjs',  'sass'], function() {
