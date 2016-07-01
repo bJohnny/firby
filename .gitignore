@@ -2,9 +2,9 @@
 bower_components
 node_modules
 npm-debug.log
-kirby/assets/css
-kirby/assets/js
-kirby/site/cache
-kirby/site/accounts
-kirby/tmp
+assets/css
+assets/js
+site/cache
+site/accounts
+tmp
 .idea
