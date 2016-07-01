@@ -12,5 +12,4 @@ snippet('header'); ?>
     </article>
 </section>
 
-
 <?php snippet('footer'); ?>
